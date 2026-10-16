@@ -1,0 +1,11 @@
+customer_id,customer_name,country,city,signup_date
+101,Alice,India,Hyderabad,10-01-2024
+102,Bob,India,Bangalore,15-02-2024
+103,Charlie,USA,New York,01-03-2024
+104,David,UK,London,20-04-2024
+105,Emma,India,Hyderabad,05-05-2024
+106,Frank,USA,Chicago,12-06-2024
+107,Grace,UK,Manchester,18-07-2024
+108,Hari,India,Chennai,25-08-2024
+109,Irene,USA,Boston,09-09-2024
+110,John,India,Pune,11-10-2024

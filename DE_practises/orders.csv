@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,order_status,payment_method
+1001,101,05-01-2025,Delivered,Card
+1002,102,08-01-2025,Delivered,UPI
+1003,103,10-01-2025,Cancelled,Card
+1004,101,15-01-2025,Delivered,UPI
+1005,104,02-02-2025,Delivered,Card
+1006,105,05-02-2025,Pending,UPI
+1007,106,12-02-2025,Delivered,Card
+1008,108,15-02-2025,Delivered,Cash
+1009,102,01-03-2025,Delivered,UPI
+1010,109,03-03-2025,Returned,Card
+1011,110,05-03-2025,Delivered,UPI
+1012,103,08-03-2025,Delivered,Card
+1013,105,10-03-2025,Delivered,UPI
+1014,107,15-03-2025,Pending,Card
+1015,101,20-03-2025,Delivered,UPI
