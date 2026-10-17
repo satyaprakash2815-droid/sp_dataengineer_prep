@@ -1,4 +1,4 @@
-"""Section C - Python practical, Q1-Q7 (pure Python, no pandas)."""
+# """Section C - Python practical, Q1-Q7 (pure Python, no pandas)."""
 import csv
 from collections import defaultdict
 from datetime import datetime, date
@@ -9,7 +9,7 @@ DATA_DIR = Path("data")
 
 
 def read_csv(name):
-    """Return a list of dict rows for a CSV file."""
+    # """Return a list of dict rows for a CSV file."""
     with open(DATA_DIR / name, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
