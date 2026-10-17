@@ -1,0 +1,8 @@
+order_id,customer_id,order_date,order_status,payment_method,updated_at
+1001,101,05-01-2025,Delivered,Card,05-01-2025 10:00
+1002,102,08-01-2025,Delivered,UPI,08-01-2025 12:00
+1002,102,08-01-2025,Delivered,UPI,08-01-2025 12:00
+1016,105,25-03-2025,Delivered,UPI,25-03-2025 14:00
+1017,,26-03-2025,Pending,Card,26-03-2025 09:00
+1018,108,27-03-2025,Delivered,UPI,27-03-2025 11:00
+1019,109,invalid_date,Delivered,Card,28-03-2025 15:00
