@@ -5,7 +5,7 @@ from datetime import datetime, date
 from itertools import islice
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path(__file__).resolve().parent / "data"
 
 
 def read_csv(name):
@@ -52,7 +52,7 @@ def parse_date(text):
 def q4():
     for r in read_csv("orders.csv")[:3]:
         d = parse_date(r["order_date"])
-        print(r["order_id"], d, d.year, d.month, d.day)
+        print(r["order_id"], r["order_date"], d, type(d))
 
 
 # ---------- Q5: data-quality checks ----------
