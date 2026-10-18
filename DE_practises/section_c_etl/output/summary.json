@@ -1,0 +1,24 @@
+{
+  "completed_sales_revenue": 367400,
+  "by_status": {
+    "Delivered": {
+      "orders": 13,
+      "value": 367400
+    },
+    "Cancelled": {
+      "orders": 1,
+      "value": 1500
+    },
+    "Pending": {
+      "orders": 2,
+      "value": 10500
+    },
+    "Returned": {
+      "orders": 1,
+      "value": 2500
+    }
+  },
+  "clean_orders": 17,
+  "rejected_orders": 2,
+  "error_report_rows": 6
+}

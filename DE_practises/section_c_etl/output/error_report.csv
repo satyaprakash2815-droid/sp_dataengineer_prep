@@ -1,0 +1,7 @@
+source,record_id,severity,issue
+orders,1001,INFO,duplicate order_id (2 copies); kept latest updated_at
+orders,1002,INFO,duplicate order_id (3 copies); kept latest updated_at
+orders_incremental.csv,1017,ERROR,missing customer_id
+orders_incremental.csv,1019,ERROR,invalid order_date: 'invalid_date'
+orders_incremental.csv,1016,WARNING,no order items; revenue set to 0
+orders_incremental.csv,1018,WARNING,no order items; revenue set to 0

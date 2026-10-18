@@ -1,0 +1,18 @@
+order_id,customer_id,customer_name,country,order_date,order_status,payment_method,revenue,category
+1001,101,Alice,India,2025-01-05,Delivered,Card,80000,Completed sale
+1002,102,Bob,India,2025-01-08,Delivered,UPI,31600,Completed sale
+1003,103,Charlie,USA,2025-01-10,Cancelled,Card,1500,Cancelled
+1004,101,Alice,India,2025-01-15,Delivered,UPI,24800,Completed sale
+1005,104,David,UK,2025-02-02,Delivered,Card,24400,Completed sale
+1006,105,Emma,India,2025-02-05,Pending,UPI,7500,Pending (not a sale)
+1007,106,Frank,USA,2025-02-12,Delivered,Card,78000,Completed sale
+1008,108,Hari,India,2025-02-15,Delivered,Cash,30000,Completed sale
+1009,102,Bob,India,2025-03-01,Delivered,UPI,4000,Completed sale
+1010,109,Irene,USA,2025-03-03,Returned,Card,2500,Returned
+1011,110,John,India,2025-03-05,Delivered,UPI,12000,Completed sale
+1012,103,Charlie,USA,2025-03-08,Delivered,Card,44000,Completed sale
+1013,105,Emma,India,2025-03-10,Delivered,UPI,3600,Completed sale
+1014,107,Grace,UK,2025-03-15,Pending,Card,3000,Pending (not a sale)
+1015,101,Alice,India,2025-03-20,Delivered,UPI,35000,Completed sale
+1016,105,Emma,India,2025-03-25,Delivered,UPI,0,Completed sale
+1018,108,Hari,India,2025-03-27,Delivered,UPI,0,Completed sale

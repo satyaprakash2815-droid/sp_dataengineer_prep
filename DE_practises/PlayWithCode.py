@@ -17,10 +17,10 @@ def read_csv(name):
 # ---------- Q1: row counts and column names ----------
 def q1():
     for name in ["customer.csv", "product.csv", "orders.csv", "order_items.csv"]:
-        with open(DATA_DIR / name, newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
+        with open(DATA_DIR / name, newline="", encoding="utf-8") as f1:
+            reader = csv.DictReader(f1)
             count = sum(1 for _ in reader)
-            print(f"{name}: {count} rows, columns={reader.fieldnames}")
+    print(f"{name}: {count} rows, columns={reader.fieldnames}")
 
 
 # ---------- Q2: customers dictionary ----------

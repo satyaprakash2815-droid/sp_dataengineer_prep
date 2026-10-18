@@ -1,0 +1,3 @@
+{"ts": "2026-10-18T07:47:17", "level": "INFO", "step": "etl", "msg": "extract done", "customers": 10, "orders_rows": 22, "items": 21}
+{"ts": "2026-10-18T07:47:17", "level": "INFO", "step": "etl", "msg": "dedupe done", "before": 22, "after": 19}
+{"ts": "2026-10-18T07:47:17", "level": "INFO", "step": "etl", "msg": "load done", "completed_sales_revenue": 367400, "by_status": {"Delivered": {"orders": 13, "value": 367400}, "Cancelled": {"orders": 1, "value": 1500}, "Pending": {"orders": 2, "value": 10500}, "Returned": {"orders": 1, "value": 2500}}, "clean_orders": 17, "rejected_orders": 2, "error_report_rows": 6}

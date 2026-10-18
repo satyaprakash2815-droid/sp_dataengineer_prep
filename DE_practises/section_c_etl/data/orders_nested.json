@@ -1,0 +1,334 @@
+{
+  "orders": [
+    {
+      "order_id": 1001,
+      "order_date": "2025-01-05",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 101,
+        "name": "Alice",
+        "address": {
+          "country": "India",
+          "city": "Hyderabad"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "quantity": 1,
+          "unit_price": 75000
+        },
+        {
+          "product_id": "P103",
+          "quantity": 2,
+          "unit_price": 2500
+        }
+      ]
+    },
+    {
+      "order_id": 1002,
+      "order_date": "2025-01-08",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 102,
+        "name": "Bob",
+        "address": {
+          "country": "India",
+          "city": "Bangalore"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "quantity": 1,
+          "unit_price": 30000
+        },
+        {
+          "product_id": "P106",
+          "quantity": 2,
+          "unit_price": 800
+        }
+      ]
+    },
+    {
+      "order_id": 1003,
+      "order_date": "2025-01-10",
+      "status": "Cancelled",
+      "customer": {
+        "customer_id": 103,
+        "name": "Charlie",
+        "address": {
+          "country": "USA",
+          "city": "New York"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "quantity": 1,
+          "unit_price": 1500
+        }
+      ]
+    },
+    {
+      "order_id": 1004,
+      "order_date": "2025-01-15",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 101,
+        "name": "Alice",
+        "address": {
+          "country": "India",
+          "city": "Hyderabad"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "quantity": 2,
+          "unit_price": 12000
+        },
+        {
+          "product_id": "P106",
+          "quantity": 1,
+          "unit_price": 800
+        }
+      ]
+    },
+    {
+      "order_id": 1005,
+      "order_date": "2025-02-02",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 104,
+        "name": "David",
+        "address": {
+          "country": "UK",
+          "city": "London"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "quantity": 1,
+          "unit_price": 22000
+        },
+        {
+          "product_id": "P108",
+          "quantity": 2,
+          "unit_price": 1200
+        }
+      ]
+    },
+    {
+      "order_id": 1006,
+      "order_date": "2025-02-05",
+      "status": "Pending",
+      "customer": {
+        "customer_id": 105,
+        "name": "Emma",
+        "address": {
+          "country": "India",
+          "city": "Hyderabad"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "quantity": 3,
+          "unit_price": 2500
+        }
+      ]
+    },
+    {
+      "order_id": 1007,
+      "order_date": "2025-02-12",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 106,
+        "name": "Frank",
+        "address": {
+          "country": "USA",
+          "city": "Chicago"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P101",
+          "quantity": 1,
+          "unit_price": 75000
+        },
+        {
+          "product_id": "P104",
+          "quantity": 2,
+          "unit_price": 1500
+        }
+      ]
+    },
+    {
+      "order_id": 1008,
+      "order_date": "2025-02-15",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 108,
+        "name": "Hari",
+        "address": {
+          "country": "India",
+          "city": "Chennai"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "quantity": 1,
+          "unit_price": 30000
+        }
+      ]
+    },
+    {
+      "order_id": 1009,
+      "order_date": "2025-03-01",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 102,
+        "name": "Bob",
+        "address": {
+          "country": "India",
+          "city": "Bangalore"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P106",
+          "quantity": 5,
+          "unit_price": 800
+        }
+      ]
+    },
+    {
+      "order_id": 1010,
+      "order_date": "2025-03-03",
+      "status": "Returned",
+      "customer": {
+        "customer_id": 109,
+        "name": "Irene",
+        "address": {
+          "country": "USA",
+          "city": "Boston"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P103",
+          "quantity": 1,
+          "unit_price": 2500
+        }
+      ]
+    },
+    {
+      "order_id": 1011,
+      "order_date": "2025-03-05",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 110,
+        "name": "John",
+        "address": {
+          "country": "India",
+          "city": "Pune"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P105",
+          "quantity": 1,
+          "unit_price": 12000
+        }
+      ]
+    },
+    {
+      "order_id": 1012,
+      "order_date": "2025-03-08",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 103,
+        "name": "Charlie",
+        "address": {
+          "country": "USA",
+          "city": "New York"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P107",
+          "quantity": 2,
+          "unit_price": 22000
+        }
+      ]
+    },
+    {
+      "order_id": 1013,
+      "order_date": "2025-03-10",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 105,
+        "name": "Emma",
+        "address": {
+          "country": "India",
+          "city": "Hyderabad"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P108",
+          "quantity": 3,
+          "unit_price": 1200
+        }
+      ]
+    },
+    {
+      "order_id": 1014,
+      "order_date": "2025-03-15",
+      "status": "Pending",
+      "customer": {
+        "customer_id": 107,
+        "name": "Grace",
+        "address": {
+          "country": "UK",
+          "city": "Manchester"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P104",
+          "quantity": 2,
+          "unit_price": 1500
+        }
+      ]
+    },
+    {
+      "order_id": 1015,
+      "order_date": "2025-03-20",
+      "status": "Delivered",
+      "customer": {
+        "customer_id": 101,
+        "name": "Alice",
+        "address": {
+          "country": "India",
+          "city": "Hyderabad"
+        }
+      },
+      "items": [
+        {
+          "product_id": "P102",
+          "quantity": 1,
+          "unit_price": 30000
+        },
+        {
+          "product_id": "P103",
+          "quantity": 2,
+          "unit_price": 2500
+        }
+      ]
+    }
+  ]
+}

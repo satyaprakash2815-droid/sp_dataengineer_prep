@@ -1,0 +1,9 @@
+product_id,product_name,category,unit_price
+P101,Laptop,Electronics,75000
+P102,Mobile,Electronics,30000
+P103,Headphones,Accessories,2500
+P104,Keyboard,Accessories,1500
+P105,Monitor,Electronics,12000
+P106,Mouse,Accessories,800
+P107,Tablet,Electronics,22000
+P108,Charger,Accessories,1200
